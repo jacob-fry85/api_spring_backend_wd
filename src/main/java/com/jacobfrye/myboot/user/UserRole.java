@@ -1,7 +1,7 @@
-package com.jacobfrye.myboot.entity;
+package com.jacobfrye.myboot.user;
 
 public enum UserRole {
-    OFFICER,
-    CAPTAIN,
+    STAFF,
+    MANAGER,
     ADMIN
 }

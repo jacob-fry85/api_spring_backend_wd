@@ -1,4 +1,4 @@
-package com.jacobfrye.myboot.user;
+package com.jacobfrye.myboot.util;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;

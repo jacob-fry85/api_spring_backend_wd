@@ -1,2 +1,8 @@
-package com.jacobfrye.myboot.user;public interface EntityId {
+package com.jacobfrye.myboot.user;
+
+import java.io.Serializable;
+
+public interface EntityId<T> extends Serializable {
+    T getId();
+    String asString();
 }
